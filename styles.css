@@ -1,0 +1,29 @@
+body {
+    font-family: monospace;
+    background-color: #000;
+    color: #0f0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#terminal {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#input {
+    background: #000;
+    border: none;
+    color: #0f0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
